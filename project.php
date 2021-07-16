@@ -22,7 +22,7 @@ require_once './config.inc.php';
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-<html xmlns="//www.w3.org/1999/xhtml"> 
+<html xmlns="//www.w3.org/1999/xhtml" lang="ru">
     <head>
 
     <meta charset="utf-8" />
@@ -35,7 +35,7 @@ require_once './config.inc.php';
     <?php include 'links.php';?>
     <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="//editus.ru/new/js/jquery-1.8.3.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="/new/js/jquery-1.8.3.min.js"><\/script>')</script>
             <script type="text/javascript" src="js/project.js"></script>
     <script>$(function() { $('#site-navigation > ul > li').removeClass('current-menu-item').eq(1).addClass('current-menu-item') });</script>
 

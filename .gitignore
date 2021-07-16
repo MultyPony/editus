@@ -1,3 +1,5 @@
 .idea/
 phpmyadmin
 config.inc.php
+include/ext_libs/PHPExcel
+test/include/ext_libs/PHPExcel
